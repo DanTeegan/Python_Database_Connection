@@ -15,17 +15,32 @@ print(cursor)
 # We create a variable
 query_result = cursor.execute('SELECT * FROM Products')
 
-print("Printing query_result object:", query_result)
+# print("Printing query_result object:", query_result)
 
 # Code for fetching one row - use fetchone - use fetchmany if you want to fetch many rows. fetchall = fetch all rows
+
+# This would give you the second collumn of rows
+# print(rows[1])
+
 rows=query_result.fetchone()
+print(type(rows))
+print(rows[1])
+print(rows.ProductName)
+
+rows=query_result.fetchone()
+print(type(rows))
+print(rows[1])
+print(rows.ProductName)
+
+# print("Executing fetch many:", query_result.fetchmany(20))
+
+rows = query_result.fetchmany(30)
+for row in rows:
+    print(row)
 
 
-
-
-
-
-
+rows=query_result.fetchall()
+for row in rows:
 
 
 
