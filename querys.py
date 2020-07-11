@@ -12,6 +12,7 @@ class Queries(Connect):
         for product in products:
             print(product)
 
+    # Creating a query for citys
     def query_citys(self):
         object = Connect()
         cursor = object.database_con()
@@ -20,6 +21,7 @@ class Queries(Connect):
         for customer in customers:
             print(customer)
 
+    # Creating a method for employees
     def query_employees(self):
         object = Connect()
         cursor = object.database_con()
@@ -28,7 +30,7 @@ class Queries(Connect):
         for employee in employees:
             print(employee)
 
-
+    # Creating an average method of products
     def query_average(self):
         object = Connect()
         cursor = object.database_con()
@@ -36,7 +38,5 @@ class Queries(Connect):
         averages =cursor.fetchall()
         for average in averages:
             print(average)
-
-
 
 
