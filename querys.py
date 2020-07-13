@@ -13,7 +13,7 @@ class Queries(Connect):
             print(product)
 
     # Creating a query for citys
-    def query_citys(self):
+    def query_customers_cities(self):
         object = Connect()
         cursor = object.database_con()
         cursor.execute("SELECT city, country FROM customers WHERE country LIKE 'UK'")
@@ -22,7 +22,7 @@ class Queries(Connect):
             print(customer)
 
     # Creating a method for employees
-    def query_employees(self):
+    def queries_employees(self):
         object = Connect()
         cursor = object.database_con()
         cursor.execute("SELECT Firstname, Lastname from employees")
@@ -31,7 +31,7 @@ class Queries(Connect):
             print(employee)
 
     # Creating an average method of products
-    def query_average(self):
+    def querys_average(self):
         object = Connect()
         cursor = object.database_con()
         cursor.execute("SELECT AVG(UnitPrice) FROM Products ")
