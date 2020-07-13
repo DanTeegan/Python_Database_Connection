@@ -1,7 +1,7 @@
 from main import Connect
 import pyodbc
 
-# Creating a new function, Inheriting the class from the main file.
+# Creating a new function, Inheriting the class from the main file
 class Queries(Connect):
 
     def query_products (self):
