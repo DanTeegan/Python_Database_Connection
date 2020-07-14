@@ -1,5 +1,5 @@
 from querys import Queries
-# We are uding the pillar of abstraction to hide the comlexity for the user.
+# We are using the pillar of abstraction to hide the complexity for the user.
 
 object = Queries()  # Creating the object
 
