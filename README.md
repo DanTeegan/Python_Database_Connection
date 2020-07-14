@@ -1,7 +1,7 @@
-### Welcome to the README of Daniels Database Connection project presentation:
+### Welcome to the README of Daniels Database Connection project (presentation)
 
 ##### This repository was created in order to demonstrate the ability to integrate SQL databases and Python.
-##### This Project uses some principles of OOP such as Inheritance and abstraction in order to hide the complexity from the user.
+##### This Project uses some principles of OOP such as Inheritance and abstraction in order to inherit methods hide the complexity from the user.
 ##### The files in this project are as followed:
 - main.py
 - querys.py
