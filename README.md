@@ -8,6 +8,7 @@
 - output.py
 
 ##### Using SQL northwind database we created queries to obtain the following information
+
 - query_products
 - query_customers_cities
 - queries_employees
