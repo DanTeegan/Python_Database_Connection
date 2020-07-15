@@ -7,6 +7,12 @@
 - querys.py
 - output.py
 
+##### Using SQL northwind database we created queries to obtain the following information
+- query_products
+- query_customers_cities
+- queries_employees
+- querys_average
+
 ##### By using the pillar of inheritance, it allowed us to create a link between our classes. Therefore inheriting the relevent data needed.
 ##### Inheritance is also essential for allowing the queries to run from the main file which holds the database connection.
 ##### In the queries file, I have tried to demonstrate the benefits of using fetchone, fetchall and fetchmany.
